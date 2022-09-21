@@ -1,0 +1,115 @@
+.attribution{
+    font-size: 11px; text-align: center; 
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.attribution a{ 
+    color: hsl(228, 45%, 44%); 
+}
+
+body, html{
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+    height: 100%;
+}
+body{
+    /*background-color: #19a19d;*/
+    /*background: #19a19d url(../_img/bg-pattern-top.svg) no-repeat top left;*/
+    /*background-position: -400px -500px;*/
+}
+
+
+div#esquerda{
+    background: #19a19d url(../_img/bg-pattern-top.svg) no-repeat top left;
+    background-position: -380px -550px;
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+div#direita{
+    background: #19a19d url(../_img/bg-pattern-bottom.svg) no-repeat bottom right;
+    background-position: 0px 300px;
+    width: 50%;
+    float: right;
+    height: 100%;
+    
+}
+
+
+header{
+    position: absolute;
+    top: 150px;
+    left: 0%;
+    width: 100%;
+}
+
+div#container{
+    width: 30%;
+    min-width: 290px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #fff url(../_img/bg-pattern-card.svg) repeat-x top left;
+}
+
+div#avatar_container{
+    position: relative;
+    top: 140px;
+    height: 180px;
+    border: 1px solid white;
+    border-bottom-color: #f0f0f0;
+    border-bottom-width: 2px;
+}
+
+div#avatar{
+    margin: -48px auto 0 auto;
+    border: 5px solid white;
+    border-radius: 50px;
+    width: 96px;
+    height: 96px;
+    background: url(../_img/image-victor.jpg);
+}
+
+h1{
+    text-align: center;
+    font-size: 1.5em;
+}
+#idade{
+    color: #cdcfd3;
+}
+
+h4{
+    text-align: center;
+    color: #cdcfd3;
+
+}
+
+#rodape{
+    text-align: center;
+    position: relative;
+    top: 140px;
+    height: 70px;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+ul span{
+    color: #cdcfd3;
+    font-size: 0.8em;
+}
+
+li{
+    float: left;
+    margin-left: 50px;
+}
+
+p{
+    margin: 0;
+    font-weight: bolder;
+}
